@@ -1,0 +1,29 @@
+.producto-page {
+  padding: 10px;
+}
+
+.producto-page h1 {
+  font-size: 26px;
+  font-weight: 800;
+  color: #222;
+  margin-bottom: 24px;
+}
+
+.productos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.loading {
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .productos-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,162 @@
+.detalle-page {
+  padding: 10px;
+}
+
+.detalle-container {
+  display: flex;
+  gap: 20px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin-bottom: 24px;
+}
+
+/* MINIATURAS */
+.galeria-miniaturas {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.miniatura {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border 0.2s;
+}
+
+.miniatura.activa {
+  border: 2px solid #1565C0;
+}
+
+/* IMAGEN PRINCIPAL */
+.imagen-principal {
+  flex: 1;
+}
+
+.imagen-principal img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* INFO */
+.detalle-info {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.detalle-nuevo {
+  font-size: 13px;
+  color: #666;
+}
+
+.detalle-titulo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #222;
+}
+
+.detalle-categoria {
+  background-color: #1565C0;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  display: inline-block;
+  width: fit-content;
+}
+
+.detalle-precio {
+  font-size: 36px;
+  font-weight: 700;
+  color: #222;
+}
+
+.detalle-envio {
+  color: #2e7d32;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.detalle-acerca h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 8px;
+}
+
+.detalle-acerca p {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.btn-comprar {
+  background-color: #1565C0;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  width: 100%;
+  letter-spacing: 1px;
+}
+
+.btn-comprar:hover {
+  background-color: #0d47a1;
+}
+
+.btn-carrito {
+  background-color: white;
+  color: #1565C0;
+  border: 1px solid #1565C0;
+  padding: 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  width: 100%;
+  letter-spacing: 1px;
+}
+
+.btn-carrito:hover {
+  background-color: #e8f0fe;
+}
+
+/* DESCRIPCION */
+.detalle-descripcion {
+  background-color: white;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.detalle-descripcion h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 12px;
+}
+
+.detalle-descripcion p {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.8;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 18px;
+  color: #666;
+}
