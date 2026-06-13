@@ -2,7 +2,7 @@ import UsuarioCard from '../components/UsuarioCard'
 import './UsuarioPage.css'
 
 const usuarios = [
- {
+  {
     id: 1,
     name: 'Jhon',
     email: 'john@mail.com',
